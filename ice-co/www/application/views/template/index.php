@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ice Crysal - Кристаллические дезодоранты из алунита с доставкой по Москве</title>
+    <?php foreach ($styles as $file => $type) echo HTML::style($file, array('media' => $type)), "\n" ?>
+    <!--<link type="text/css" href="/css/style.css" rel="stylesheet" media="screen">-->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/callme/js/callme.js"></script>
+</head>
+
+<body>
+<?php
+if(Helper_Message::count() > 0) {
+    echo Helper_Message::output();
+}?>
+<div class="wrapper">
+  <div class="container">
+    <div class="header">
+      <div class="logo">Ice-Co.Ru</div>
+      <div class="logo_text">Кристально безупречные дезодоранты</div>
+      <div class="contacts"><span class="phone">+7 (495) 507-22-17</span><br>
+        Для звонков из москвы</div>
+      <div class="contacts"><span class="phone">8 (800) 333-48-66</span><br>
+        Для бесплатных звонков из РФ</div>
+      <div class="content_top"> <span class="heading">Кристаллические дезодоранты из алунита с доставкой по Москве и России</span><br>
+        Без химии! Эффективная защита от неприятного запаха в течение всего дня. Не закупоривает поры. Не проникает в железы. </div>
+    </div>
+    <div class="bg">
+      <div class="banner_text"><span class="banner_header">Закажите 
+        с максимальной 
+        выгодой сейчас</span> <br>
+        <br>
+        <br>
+        <span class="white">Природный дезодорант <br>
+        Ice Crystal 60 гр.</span> за 199 руб. <br>
+        <span class="old">вместо 399 руб. </span><br>
+        <br>
+        <br>
+        <span class="white">Природный дезодорант<br>
+        Ice Crystal 120 гр.</span> за 279 руб. <br>
+        <span class="old">вместо 549 руб. </span><br>
+        <br>
+        <br>
+        <a href="#" class="button basic">Заказать по выгодной цене</a></div>
+        <div id="basic-modal-content">
+            <?php if(isset($content) AND is_object($content)){
+                    echo $content; 
+            }?>  
+        </div>
+    </div>
+  </div>
+  <div class="timer"><script type="text/javascript">document.write("До конца акции осталось <span id='pageinval23' style='font-family:arial, helvetica, sans-serif; font-size:21px; color:#ac3a24; margin-right: 120px; '></span>");function countdown_load45(){var the_event="";var on_event="";var yr=2013;var mo=11;var da=30;var hr=0;var min=0;var sec=0;var month='';var month=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");var bottom_event="";var now_d=new Date();var now_year=now_d.getYear();if (now_year < 1000)now_year+=1900;var now_month=now_d.getMonth();var now_day=now_d.getDate();var now_hour=now_d.getHours();var now_min=now_d.getMinutes();var now_sec=now_d.getSeconds();var now_val=month[now_month]+" "+now_day+", "+now_year+" "+now_hour+":"+now_min+":"+now_sec;event_val=month[mo-1]+" "+da+", "+yr+" "+hr+":"+min+":"+sec;difference=Date.parse(event_val)-Date.parse(now_val);differenceday=Math.floor(difference/(60*60*1000*24)*1);differencehour=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);differencemin=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);differencesec=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);if(document.getElementById('pageinval23')){if(differenceday<=0&&differencehour<=0&&differencemin<=0&&differencesec<=1&&now_day==da){document.getElementById('pageinval23').innerHTML=on_event;}else if (differenceday<=-1){document.getElementById('pageinval23').innerHTML="Event : "+on_event+" : passed";}else {document.getElementById('pageinval23').innerHTML=the_event+""+differencehour+":"+differencemin+":"+differencesec+""+bottom_event;} }setTimeout("countdown_load45()",1000);}countdown_load45();</script></div>
+  <div class="features">
+    <div class="ftext"> <img src="images/f1.png" alt="" width="36" height="29" >Без красителей, консервантов, 
+      спирта и растворителей. </div>
+    <div class="ftext"><img src="images/f2.png" alt="" width="39" height="37">Компактный: 60гр и 120 гр. <br>
+      Всего 7 см и 8,5 см. </div>
+    <div class="ftext"> <img src="images/f3.png" alt="" width="38" height="32">Не проникает внутрь.<br>
+      Работает на поверхности. </div>
+    <div class="ftext"><img src="images/f4.png" alt="" width="40" height="33"> Эффективная защита <br>
+      от запаха до 24 часов. </div>
+    <div class="ftext"> <img src="images/f5.png" alt="" width="38" height="38">Долговечный. До 12 месяцев<br>
+      регулярного использования </div>
+    <div class="ftext"><img src="images/f6.png" alt="" width="36" height="37"> Не пачкает одежду.<br>
+      Без запаха и красителей. </div>
+  </div>
+  <div class="instruct">
+    <h1 class="heading">Как использовать кристаллический дезодорант</h1>
+    <div class="inst_text1"><img src="images/inst1.png" width="55" height="47">Нанесите дезодорант на влажную <br>
+      чистую кожу в области подмышек.</div>
+    <div class="inst_text2"><img src="images/inst2.png" width="49" height="49">Для усиления эффекта, <br>
+      смочите водой. </div>
+  </div>
+  <div class="more">
+  
+  <h1 class="heading">Еще несколько секретов использования</h1>
+  <p>Являясь наиболее эффективным природным антисептиком, дезодоранты из алунита нашли широкое применение далеко 
+выходящие за рамки их обычного использования...</p>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20" valign="top"><img src="images/list.png" width="9" height="18"></td>
+    <td width="50%" valign="top"><span class="heading">Если болит горло...</span><br>
+      Опустите алунит в стакан с теплой водой и водите им по кругу (примерно 
+так же и столько же по времени как обычно размешивается сахар 
+в чае), при этом вода должны стать «вязкой» как неспелая хурма. 
+Полоскайте горло в течение дня как можно чаще таким раствором 
+алунита. Детям так же рекомендуется.<br><br></td>
+    <td width="20" valign="top"><img src="images/list.png" alt="" width="9" height="18"></td>
+    <td valign="top"><span class="heading">Пикник на природе...
+      </span><br>
+      Разведите алунит в стакане с водой и ополосните руки перед 
+употреблением еды, это убережет от возможных инфекций. 
+Так же, если укусил комар, обработайте место укуса 
+дезодорантом, что снизит зуд и отек.</td>
+  </tr>
+  <tr>
+    <td width="20" valign="top"><img src="images/list.png" alt="" width="9" height="18"></td>
+    <td width="50%" valign="top"><span class="heading">Если отравились...
+      </span><br>
+      Подобная проблема часто встречается в жарких курортных странах, 
+и причиной тому служит большое количество кишащих бактерий в еде, 
+с которыми очень эффективно борется алунит. Так же необходимо 
+развести алунит с небольшим количеством теплой чистой воды и пить 
+регулярно до исчезновения признаков отравления.<br>
+<br></td>
+    <td width="20" valign="top"><img src="images/list.png" alt="" width="9" height="18"></td>
+    <td valign="top"><span class="heading">Проблемная кожа лица...
+      </span><br>
+      Алунит обладает подсушивающим эффектом и его возможно 
+применять на коже лица после умывания (так же можно оставлять 
+на ночь). Используйте данный метод с той периодичностью, 
+которая лучше подходит для вашего типа кожи.</td>
+  </tr>
+  <tr>
+    <td width="20" valign="top"><img src="images/list.png" alt="" width="9" height="18"></td>
+    <td width="50%" valign="top"><span class="heading">Если порезались...
+      </span><br>
+      Смочите кристалл водой и обработайте рану. Это позволит 
+защитить Вас от инфекций и значительно уменьшит кровотечение.<br>
+<br></td>
+    <td width="20" valign="top"><img src="images/list.png" alt="" width="9" height="18"></td>
+    <td valign="top"><span class="heading">Интимная гигиена...
+      </span><br>
+      Являясь безопасным и натуральным природным антисептиком, 
+алунит идеально подходит и для интимной гигиены.</td>
+  </tr>
+</table>
+<div class="footer">
+<div class="footer_heading heading">Остались вопросы?</div> 
+<div class="footer_button"><a href="#" class="call_me callme_viewform"> Заказать звонок </a> </div>
+<div class="footer_text">Получите дополнительную консультацию 
+<br>от нашего специалиста</div>
+</div>
+  </div>
+</div>
+<?php foreach ($scripts as $file) echo HTML::script($file), "\n" ?>
+</body>
+</html>

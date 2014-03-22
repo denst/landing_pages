@@ -1,0 +1,284 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    word-spacing: -1px;
+}
+.container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+.footer {
+    background: url('/img/footer_background.jpg') no-repeat;
+    height: 376px;
+}
+.wrapper{
+    width: 1004px;
+    margin: 0 auto;
+    height: 100%;
+}
+.header{
+    background: url('/img/header_background.jpg') no-repeat;
+    height: 106px;
+}
+.content-container .title{
+    background: url('/img/content_title_background.jpg') no-repeat;
+    height: 119px;
+    
+    padding-top: 47px;
+}
+.content-container .content{
+    background: url('/img/content_background.jpg') no-repeat;
+    height: 440px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.logo{
+    padding-top: 14px;
+    padding-left: 53px;
+    float: left;
+}
+
+.logo img{
+    float: left;
+}
+
+.logo .title{
+    margin-top: 20px;
+    margin-left: 63px;
+}
+
+.call-block{
+    width: 675px;
+    padding-top: 32px;
+    float: right;
+    margin-right: 30px;
+}
+
+.call-block .call-button{
+    float: left;
+    margin-left: 245px;
+    margin-right: 23px;
+}
+
+.call-block .primary{
+    width: 117px;
+    height: 14px;
+    padding: 10px;
+    padding-left: 30px;
+    
+    background-color: #ce155a;
+    background-repeat: repeat-x;
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#f02d76), to(#ce155a));
+    background-image: -moz-linear-gradient(top, #f02d76, #ce155a);
+    background-image: -ms-linear-gradient(top, #f02d76, #ce155a);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f02d76), color-stop(100%, #ce155a));
+    background-image: -webkit-linear-gradient(top, #f02d76, #ce155a);
+    background-image: -o-linear-gradient(top, #f02d76, #ce155a);
+    background-image: linear-gradient(top, #f02d76, #ce155a);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f02d76', endColorstr='#ce155a', GradientType=0);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    border-color: #f02d76 #ce155a #003f81;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.content-container{
+    text-align: center;
+}
+.content-container h2{
+    font-size: 25px;
+    line-height: 25pt;
+    font-weight: bold;
+}
+.content-container .limit{
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+#slides{
+    width: 542px;
+    padding-top: 33px;
+    padding-left: 40px;
+    float: left;
+}
+
+#slides .slidesPrevious {
+    left: -33px;
+    top: -180px;
+    position: relative;
+}
+
+#slides .slidesNext{
+    left: 550px;
+    top: -180px;
+    position: relative;
+}
+
+#slides .slidesContainer{
+    height: 372px !important;
+}
+
+.form-container{
+    width: 392px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 29px;
+}
+.form-container h3{
+    font-size: 18px;
+}
+
+.form-container .inputs{
+    margin-top: 20px;
+}
+
+.form-container .inputs input{
+    border: none;
+    width: 347px;
+    height: 30px;
+    margin-bottom: 21px;
+    padding-left: 12px;
+}
+
+.form-container .date{
+    margin-top: -7px;
+    text-align: left;
+    margin-left: 18px;
+}
+
+.form-container .date select{
+    border: none;
+    width: 55px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 13px;
+}
+.form-container .date select.large{
+    width: 101px;
+    margin-right: 60px;
+}
+.form-container .date select.hour{
+    margin-right: 3px;
+}
+
+.form-container .save-info{
+    margin-top: 14px;
+    font-size: 11px;
+    word-spacing: 2px;
+    text-align: left;
+    margin-left: 18px;
+}
+
+.form-container .form-button{
+    margin-top: 21px;
+    text-align: left;
+    margin-left: 17px;
+}
+
+.form-container .form-button .primary{
+    width: 292px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 13px;
+    color: #263352;
+    
+    background-color: #D5A523;;
+    background-repeat: repeat-x;
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#ffc62c), to(#D5A523));
+    background-image: -moz-linear-gradient(top, #ffc62c, #D5A523);
+    background-image: -ms-linear-gradient(top, #ffc62c, #D5A523);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffc62c), color-stop(100%, #D5A523));
+    background-image: -webkit-linear-gradient(top, #ffc62c, #D5A523);
+    background-image: -o-linear-gradient(top, #ffc62c, #D5A523);
+    background-image: linear-gradient(top, #ffc62c, #D5A523);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc62c', endColorstr='#ce155a', GradientType=0);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    border-color: #ffc62c #D5A523 #003f81;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.form-container .take-info{
+    margin-top: 5px;
+    margin-left: 45px;
+    text-align: left;
+}
+
+.benefits{
+    text-align: left;
+    padding-top: 44px;
+    padding-left: 90px;
+}
+.benefits h2{
+    font-size: 23px;
+    margin-left: 10px;
+    letter-spacing: 1.5px;
+}
+
+
+.benefits .bnfs .bnfs-line{
+    clear: both;
+    height: 86px;
+}
+
+.benefits .bnfs .bnf{
+    float: left;
+    font-size: 13px;
+    margin-left: 16px;
+    width: 144px;
+    margin-top: 10px;
+    margin-right: 55px;
+}
+
+.benefits .bnfs #bnf-5-line{
+    margin-left: 26px;
+    width: 162px;
+}
+
+.benefits .bnfs #bnf-1, 
+.benefits .bnfs #bnf-2, 
+.benefits .bnfs #bnf-3,
+.benefits .bnfs #bnf-4,
+.benefits .bnfs #bnf-5,
+.benefits .bnfs #bnf-6{
+    background: url('/img/icons.png') no-repeat;
+    height: 55px;
+    width: 50px;
+    float: left;
+}
+
+.benefits .bnfs #bnf-1{
+    background-position: -6px -2px;
+}
+.benefits .bnfs #bnf-2{
+    background-position: -269px -3px;
+    width: 68px;
+}
+.benefits .bnfs #bnf-3{
+    background-position: -548px -2px;
+    width: 73px;
+}
+.benefits .bnfs #bnf-4{
+    background-position: -5px -139px;
+    width: 53px;
+    height: 100px;
+}
+.benefits .bnfs #bnf-5{
+    width: 53px;
+    height: 60px;
+    background-position: -272px -137px;
+}
+.benefits .bnfs #bnf-6{
+    width: 53px;
+    background-position: -569px -132px;
+    height: 67px;
+}
+
+.error{
+    border: 2px solid #b94a48 !important;
+}
